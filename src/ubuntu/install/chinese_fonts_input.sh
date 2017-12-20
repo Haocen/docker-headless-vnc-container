@@ -10,3 +10,7 @@ apt-get install -y \
   ttf-wqy-microhei \
   fonts-horai-umefont \
   ibus-pinyin
+apt-get clean -y
+
+# Create font cache
+fc-cache -fv
