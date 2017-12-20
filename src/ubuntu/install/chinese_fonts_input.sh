@@ -8,5 +8,4 @@ RUN apt-get install -y \
   fontconfig \
   ttf-wqy-zenhei \
   ttf-wqy-microhei \
-  fonts-horai-umefont \
-  ibus-pinyin
+  fonts-horai-umefont
