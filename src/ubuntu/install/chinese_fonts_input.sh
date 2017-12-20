@@ -3,9 +3,10 @@
 set -e
 
 echo "Install Chinese fonts and input"
-RUN apt-get update
-RUN apt-get install -y \
+apt-get update
+apt-get install -y \
   fontconfig \
   ttf-wqy-zenhei \
   ttf-wqy-microhei \
-  fonts-horai-umefont
+  fonts-horai-umefont \
+  ibus-pinyin
